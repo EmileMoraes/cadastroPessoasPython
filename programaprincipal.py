@@ -4,10 +4,11 @@ from uteisb import arquivoExiste ,lerArquivo, criarArquivo, cadastrar
 from time import sleep
 
 """
+                      PROGRAMA PRINCIPAL
 -> Sistema para cadastro de pessoas, e visualizações.
-  O programa se utiliza de 2 modúlos internos, um para leitura e formatação
+  O programa se utiliza de 2 módulos internos, um para leitura e formatação
   do sistema.
-  O outro modúlo ler e cria o arquivo txt para armazenamento dos nomes e idades.
+  O outro módulo ler e cria o arquivo txt para armazenamento dos nomes e idades.
 """
 arq = 'cursodePython.txt'
 if not arquivoExiste(arq):
